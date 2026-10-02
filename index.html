@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yazhini G | B.Sc. Information Technology</title>
+<meta name="description" content="Portfolio of Yazhini G, a B.Sc. Information Technology student with experience in programming, SQL, software development and machine learning.">
+<meta property="og:title" content="Yazhini G | Information Technology Student">
+<meta property="og:description" content="Academic projects, technical skills, internship experience, certifications and contact details.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="[PLACEHOLDER]">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f7f3;--surface:#fff;--text:#1d211f;--muted:#626963;--line:#dedfd9;--accent:#176b5b;--accent2:#e6f0ed;--max:1080px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65}
+a{color:inherit}
+.container{width:min(calc(100% - 36px),var(--max));margin:auto}
+header{border-bottom:1px solid var(--line);background:rgba(248,247,243,.94);position:sticky;top:0;z-index:5;backdrop-filter:blur(8px)}
+.nav{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-family:"Space Grotesk";font-weight:700;text-decoration:none}
+.navlinks{display:none;gap:20px;font-size:.9rem}
+.navlinks a{text-decoration:none;color:var(--muted)}
+.navlinks a:hover{color:var(--accent)}
+.theme{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 12px;cursor:pointer}
+.hero{padding:76px 0 70px}
+.hero-grid{display:grid;gap:36px;align-items:end}
+.kicker{color:var(--accent);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:.8rem}
+h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.15}
+h1{font-size:clamp(2.7rem,10vw,5.6rem);letter-spacing:-.06em;margin:12px 0 20px;max-width:850px}
+.hero p{font-size:1.12rem;max-width:650px;color:var(--muted);margin:0 0 28px}
+.initials{width:94px;height:94px;border-radius:50%;background:var(--accent2);border:1px solid #c9ddd7;color:var(--accent);display:grid;place-items:center;font-family:"Space Grotesk";font-size:2rem;font-weight:700}
+.actions{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 17px;border-radius:8px;text-decoration:none;font-weight:700;border:1px solid var(--accent);transition:.18s}
+.btn.primary{background:var(--accent);color:white}
+.btn.secondary{background:transparent;color:var(--accent)}
+.btn:hover{transform:translateY(-2px)}
+section{padding:72px 0;border-top:1px solid var(--line)}
+.section-head{display:grid;grid-template-columns:160px 1fr;gap:30px;margin-bottom:34px}
+.section-label{font-weight:700;color:var(--accent);text-transform:uppercase;font-size:.78rem;letter-spacing:.08em}
+.section-title{font-size:clamp(1.8rem,5vw,2.7rem);margin:0}
+.about{max-width:760px;font-size:1.08rem;color:#444b46}
+.skill-grid,.project-grid,.edu-grid{display:grid;gap:16px}
+.skill-group,.project,.edu{background:var(--surface);border:1px solid var(--line);padding:22px;border-radius:12px}
+.skill-group h3,.project h3,.edu h3{margin:0 0 10px;font-size:1.05rem}
+.skill-group p,.project p,.edu p{margin:0;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.tag{border:1px solid var(--line);border-radius:999px;padding:5px 10px;font-size:.86rem;background:#fbfbf8}
+.project{display:flex;flex-direction:column;min-height:100%}
+.project .meta{margin-top:auto;padding-top:18px;font-size:.9rem}
+.project strong{color:var(--text)}
+.timeline{border-left:2px solid var(--line);padding-left:22px}
+.timeline-item{position:relative;margin-bottom:28px}
+.timeline-item:before{content:"";position:absolute;width:9px;height:9px;background:var(--accent);border-radius:50%;left:-28px;top:8px}
+.contact-grid{display:grid;gap:12px}
+.contact-link{display:block;padding:15px 17px;border:1px solid var(--line);background:var(--surface);border-radius:9px;text-decoration:none}
+.contact-link:hover{border-color:var(--accent)}
+footer{padding:35px 0;color:var(--muted);font-size:.9rem}
+@media(min-width:700px){
+ .container{width:min(calc(100% - 64px),var(--max))}
+ .navlinks{display:flex}
+ .hero{padding:110px 0 100px}
+ .hero-grid{grid-template-columns:1fr auto}
+ .skill-grid{grid-template-columns:repeat(2,1fr)}
+ .project-grid{grid-template-columns:repeat(2,1fr)}
+ .edu-grid{grid-template-columns:repeat(2,1fr)}
+ .contact-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(min-width:980px){
+ .skill-grid{grid-template-columns:repeat(3,1fr)}
+}
+.dark{--bg:#171a18;--surface:#202421;--text:#f1f2ed;--muted:#b8c0ba;--line:#383e39;--accent:#69b9a7;--accent2:#203a34}
+.dark header{background:rgba(23,26,24,.94)}
+.dark .tag{background:#202421}
+</style>
+</head>
+<body>
+<header>
+ <nav class="container nav" aria-label="Main navigation">
+  <a class="brand" href="#">YG</a>
+  <div class="navlinks">
+   <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a><a href="https://github.com/Yazhini-06" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <button class="theme" id="themeBtn" type="button" aria-label="Toggle dark mode">Dark</button>
+ </nav>
+</header>
+
+<main>
+<section class="hero">
+ <div class="container hero-grid">
+  <div>
+   <div class="kicker">B.Sc. Information Technology</div>
+   <h1>Yazhini G</h1>
+   <p>I’m an Information Technology student building my skills through programming, SQL, software projects and a machine learning internship project.</p>
+   <div class="actions">
+    <a class="btn primary" href="https://github.com/Yazhini-06" target="_blank" rel="noopener">GitHub Portfolio</a>
+    <a class="btn secondary" href="#projects">Projects</a>
+    <a class="btn secondary" href="[PLACEHOLDER]" aria-label="Open resume">Resume</a>
+    <a class="btn secondary" href="#contact">Contact</a>
+   </div>
+  </div>
+  <div class="initials" aria-label="Yazhini G initials">YG</div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="container">
+  <div class="section-head"><div class="section-label">01 / About</div><h2 class="section-title">A little about me</h2></div>
+  <p class="about">I’m currently pursuing a B.Sc. in Information Technology at Dr. N.G.P. Arts and Science College, Coimbatore. I have a foundation in C, C++, Java, Python and SQL, and I enjoy learning by working on practical projects. During my internship at LITZ Tech, I worked on an Air Quality Index prediction project using machine learning. I also serve as the Chairperson of the ACM Student Chapter at my college, where I coordinate activities with faculty members and student volunteers.</p>
+ </div>
+</section>
+
+<section id="skills">
+ <div class="container">
+  <div class="section-head"><div class="section-label">02 / Skills</div><h2 class="section-title">Tools I work with</h2></div>
+  <div class="skill-grid">
+   <article class="skill-group"><h3>Programming</h3><div class="tags"><span class="tag">C</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">MySQL</span></div></article>
+   <article class="skill-group"><h3>Data & ML</h3><div class="tags"><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Matplotlib</span><span class="tag">Seaborn</span></div></article>
+   <article class="skill-group"><h3>Tools & Other</h3><div class="tags"><span class="tag">VS Code</span><span class="tag">Antigravity</span><span class="tag">Excel</span><span class="tag">Database querying</span></div></article>
+   <article class="skill-group"><h3>Core</h3><div class="tags"><span class="tag">Problem solving</span><span class="tag">Logical thinking</span><span class="tag">Programming fundamentals</span></div></article>
+   <article class="skill-group"><h3>Soft skills</h3><div class="tags"><span class="tag">Time management</span><span class="tag">Resilience</span><span class="tag">Adaptability</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section id="projects">
+ <div class="container">
+  <div class="section-head"><div class="section-label">03 / Projects</div><h2 class="section-title">Work I can talk about</h2></div>
+  <div class="project-grid">
+   <article class="project">
+    <h3>Air Quality Index Prediction</h3>
+    <p><strong>Problem:</strong> Air quality can be understood better by processing pollutant and meteorological data and estimating AQI-related outcomes.</p>
+    <p style="margin-top:12px"><strong>What I built:</strong> During my 15-day industrial internship, I developed a machine learning solution that compared Linear Regression and Random Forest algorithms and evaluated their performance using R², RMSE and MAE.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Matplotlib</span><span class="tag">Seaborn</span></div>
+    <p class="meta"><strong>My role:</strong> Developed the machine learning solution and worked with the data processing, model comparison and evaluation.</p>
+   </article>
+   <article class="project">
+    <h3>E-Governance and Smart Systems: Smart Cities, Intelligent Transportation</h3>
+    <p><strong>Focus:</strong> A published book chapter covering e-governance and smart systems in the context of smart cities and intelligent transportation.</p>
+    <p style="margin-top:12px"><strong>Publication:</strong> Included in <em>AI-Driven Blockchain Frameworks for Secure and Scalable IoT Networking Environments</em>, Shinemax International Publications, April 2026.</p>
+    <p class="meta"><strong>My role:</strong> Author of the published book chapter.</p>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section id="education">
+ <div class="container">
+  <div class="section-head"><div class="section-label">04 / Education</div><h2 class="section-title">Education & certifications</h2></div>
+  <div class="edu-grid">
+   <article class="edu"><h3>B.Sc. Information Technology</h3><p>Dr. N.G.P. Arts and Science College, Coimbatore<br>Currently pursuing · 88% stated in resume</p></article>
+   <article class="edu"><h3>Higher Secondary</h3><p>Akshaya Academy CBSE School · 65%</p></article>
+   <article class="edu"><h3>SSLC</h3><p>Akshaya Academy CBSE School · 73%</p></article>
+   <article class="edu"><h3>Certifications</h3><p>Full Stack Web Development (MERN Stack) — Swayam Plus<br>Data Structures and Algorithms — Infosys Springboard<br>APTIS English — British Council<br>Java — Spoken Tutorial<br>Hindi Language Certification — all 8 levels</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="container">
+  <div class="section-head"><div class="section-label">05 / Contact</div><h2 class="section-title">Let’s connect</h2></div>
+  <div class="contact-grid">
+   <a class="contact-link" href="mailto:yazhinigopalakrishnan1911@gmail.com"><strong>Email</strong><br>yazhinigopalakrishnan1911@gmail.com</a>
+   <a class="contact-link" href="tel:+917904636473"><strong>Phone</strong><br>+91 79046 36473</a>
+   <a class="contact-link" href="https://www.linkedin.com/in/YazhiniG" target="_blank" rel="noopener"><strong>LinkedIn</strong><br>linkedin.com/in/YazhiniG</a>
+   <a class="contact-link" href="https://github.com/Yazhini-06" target="_blank" rel="noopener"><strong>GitHub</strong><br>github.com/Yazhini-06</a>
+  </div>
+ </div>
+</section>
+</main>
+<footer><div class="container">© 2026 Yazhini G · Portfolio</div></footer>
+<script>
+const btn=document.getElementById("themeBtn");
+btn.addEventListener("click",()=>{document.body.classList.toggle("dark");btn.textContent=document.body.classList.contains("dark")?"Light":"Dark";});
+</script>
+</body>
+</html>
